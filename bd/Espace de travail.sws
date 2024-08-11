@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?PowerDesigner signature="Workspace" version="15.1.0.2850"?>
+<!-- Veuillez ne pas modifier ce fichier -->
+
+<Workspace>
+	<Local Expanded="Yes">
+		<Model Expanded="Yes" ID="{8BF467E1-B697-4EC0-8023-581AF2BF5DC0}" Name="School_Share" Type="{FF4B6538-9856-42CF-B9B9-304ED370CEAA}" URL="School_Share.prj"/>
+	</Local>
+	<BrowserModule Name="Référentiel"/>
+</Workspace>
