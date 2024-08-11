@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,600' rel='stylesheet' type='text/css'> -->
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="back">
+        <canvas id="canvas" class="canvas-back"></canvas>
+        <div class="backLeft">
+          <img src="epreuve.jpg" alt="" srcset="" class="image">
+        </div>
+      </div>
+      
+      <div id="slideBox">
+        <div class="topLayer">
+          <div class="left">
+          </div>
+          <div class="right">
+            <div class="content">
+              <h2>Ajout d'une epreuve</h2>
+              <form id="form-login" method="post">
+                <div class="form-element form-stack">
+                  <label for="username-login" class="form-label">Nom de l'epreuve</label>
+                  <input id="username-login" type="text" name="" placeholder="ex: 1er sequence jean tabi">
+                </div>
+                <div class="form-element form-stack">
+                  <label for="username-login" class="form-label">C'est une epreuve de quel niveau ?</label>
+                  <select name="" id="password-login">
+                    <option value="">niveaux academiques</option>
+                    <option value="universitaire">universitaire</option>
+                    <option value="Secondaire">Secondaire</option>
+                  </select>
+                </div>
+                <div class="form-element form-stack">
+                  <label for="username-login" class="form-label">A quel matiere appartient-elle ?</label>
+                  <select name="" id="password-login">
+                    <option value="">liste des matieres</option>
+                    <option value="maths">maths</option>
+                    <option value="physique">physique</option>
+                    <option value="Autres">Autres</option>
+                  </select>
+                </div>
+                <div class="form-element form-stack">
+                  <label for="password-login" class="form-label" style="margin-top: 2%;">comment voulez-vous la mettre a disposition des autres ? </label>
+                    <div style="margin-left: 10%; display: flex; "><input type="checkbox" name="" id=""><label for="gratuite"style="margin: 5px; text-transform: lowercase; font-weight: normal;">gratuite</label></div>
+                    <div style="margin-left: 10%; display: flex; "><input type="checkbox" name="" id=""><label for="payante" style="margin: 5px; text-transform: lowercase; font-weight: normal;">payante</label></div>
+                </div>
+                <div class="form-element form-stack">
+                  <label for="password-login" class="form-label">prix(en franc CFA)</label>
+                  <select name="" id="password-login">
+                    <option value="">le prix maximum est de 200</option>
+                    <option value="0">0</option>
+                    <option value="100">100</option>
+                    <option value="200">200</option>
+                  </select>
+                </div>
+                <label for="file" class="form-label">cliquez en dessous pour importer votre epreuve:</label>
+                <input id="password-login" type="file" name="" style="margin-top: 3%;">
+              </div>
+                  <input type="submit" value="Ajouter" id="logIn" class="button">
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.11.3/paper-full.min.js"></script> -->
+<script src="main.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="main.js"></script>
+    <title>Inscription et connexion</title>
+</head>
+<body>
+    <div class="container right-panel-active">
+        <!-- inscription -->
+        <div class="container__form container--signup">
+            <form action="inscription.php" class="form" id="form1">
+                <h2 class="form__title">S'inscrire</h2>
+                <input type="text" placeholder="nom de l'utilisateur" class="input" />
+                <input type="email" placeholder="Email" class="input" />
+                <input type="password" placeholder="mot de passe" class="input" />
+                <select class="input">
+                        <option value="Selectionnez votre niveau academique">Selectionnez votre niveau academique</option>
+                        <option value="Secondaire">Secondaire</option>
+                        <option value="Universitaire">Universitaire</option>
+            </select>
+            <select  class="input" placeholder="cliquez ici">
+                <option value=" Selectionnez le type de votre compte">Selectionnez le type de votre compte</option>
+                <option value="admin">admin</option>
+                <option value="utilisateur">utilisateur</option>
+            </select>
+                <button type="submit" class="btn">Valider</button>
+            </form>
+        </div>
+    
+        <!-- connexion-->
+        <div class="container__form container--signin">
+            <form action="connexion.php" class="form" id="form2">
+                <h2 class="form__title">se connecter</h2>
+                <input type="email" placeholder="Email" class="input" />
+                <input type="password" placeholder="mot de passe" class="input" />
+                <a href="#" class="link">avez vous oublié votre mot de passe?</a>
+                <button type="submit" class="btn">se connecter</button>
+            </form>
+        </div>
+    
+        <!-- Overlay -->
+        <div class="container__overlay">
+            <div class="overlay">
+                <div class="overlay__panel overlay--left">
+                    <button class="btn" id="signIn">se connecter</button>
+                </div>
+                <div class="overlay__panel overlay--right">
+                    <button class="btn" id="signUp">S'inscrire</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
